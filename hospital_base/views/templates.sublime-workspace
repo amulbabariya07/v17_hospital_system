@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sub",
+				"subSubcategories"
+			],
+			[
+				"s",
+				"subcategories"
+			],
+			[
+				"cat",
+				"categs"
+			],
+			[
+				"do",
+				"domain"
+			],
+			[
+				"categ",
+				"categs"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"ca",
+				"Category"
+			],
+			[
+				"Boo",
+				"BookedTestProducts"
+			],
+			[
+				"publi",
+				"publicWidget"
+			],
+			[
+				"su",
+				"subcategoryId"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"co",
+				"company"
+			],
+			[
+				"coman",
+				"company"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"bl",
+				"blue"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"ge",
+				"green"
+			],
+			[
+				"mt",
+				"mt-5"
+			],
+			[
+				"margin-b",
+				"margin-bottom"
+			],
+			[
+				"i",
+				"!important"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"blue",
+				"skyblue"
+			],
+			[
+				"subcategoy",
+				"subcategoryId"
+			],
+			[
+				"c",
+				"categoryId"
+			],
+			[
+				"bre",
+				"breadcrumb_trail"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"pr",
+				"product_data"
+			],
+			[
+				"bear",
+				"breadcrumbs"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"T",
+				"Type"
+			],
+			[
+				"file",
+				"fields"
+			],
+			[
+				"countr",
+				"country_id"
+			],
+			[
+				"Em",
+				"emergency_contact"
+			],
+			[
+				"meid",
+				"medical_app"
+			],
+			[
+				"reco",
+				"record"
+			],
+			[
+				"pa",
+				"partners"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"compa",
+				"company_id"
+			],
+			[
+				"ag",
+				"age"
+			],
+			[
+				"bi",
+				"birthday_partners"
+			],
+			[
+				"birt",
+				"birthday_partners"
+			],
+			[
+				"bit",
+				"birthday_partners"
+			],
+			[
+				"par",
+				"partners"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"t",
+				"t-esc"
+			],
+			[
+				"sales",
+				"sales_person_id"
+			],
+			[
+				"sa",
+				"sales_person_id"
+			],
+			[
+				"empl",
+				"employee_id"
+			],
+			[
+				"sale",
+				"sales_person_id--"
+			],
+			[
+				"em",
+				"employee_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/amul/Downloads/website-8.0/website_sale_collapse_categories/views/website_sale_template.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/controllers/appointment.py",
+		"/home/amul/workspace/community/16.0/addons/website/static/src/components/dialog/page_properties.xml",
+		"/home/amul/workspace/community/16.0/addons/website/static/src/snippets/s_dynamic_snippet_carousel/000.xml",
+		"/home/amul/workspace/community/16.0/addons/website_forum/views/website_forum.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/views/templates.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/static/src/js/shop_category.js",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/controllers/shop.py",
+		"/home/amul/workspace/Notes.txt",
+		"/home/amul/Downloads/website-8.0/website_sale_collapse_categories/controllers/main.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/controllers/main.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/static/src/css/custom.scss",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/views/index.xml",
+		"/home/amul/workspace/community/16.0/addons/website_sale/controllers/main.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/controllers/__init__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/__manifest__.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/static/src/css/custom_invoice.scss",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/views/assets.xml",
+		"/home/amul/workspace/community/13.0/addons/web/views/webclient_templates.xml",
+		"/home/amul/workspace/community/13.0/addons/web/views/report_templates.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/models/company.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_report/__manifest__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/hide_website_price/views/website_sale_hide_price_templates.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_report/report/report_patient_ins_invoice.xml",
+		"/home/amul/workspace/community/13.0/addons/web/tests/test_serving_base.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/static/src/fonts/TT Chocolates Trial Bold.otf",
+		"/home/amul/workspace/community/13.0/addons/resource/__manifest__.py",
+		"/home/amul/workspace/community/13.0/addons/web/models/models.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_report/report/report_patient_invoice.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_app/__manifest__.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/__manifest__.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_report/report/report_layout.xml",
+		"/home/amul/workspace/community/13.0/addons/web/static/src/scss/report.scss",
+		"/home/amul/workspace/community/13.0/addons/portal/views/assets.xml",
+		"/home/amul/workspace/community/13.0/addons/web/data/report_layout.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/models/__init__.py",
+		"/home/amul/workspace/community/13.0/addons/web/static/src/scss/base_document_layout.scss",
+		"/home/amul/workspace/community/13.0/addons/account/tests/test_account_onboarding.py",
+		"/home/amul/workspace/community/13.0/odoo/addons/base/models/res_company.py",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_doctor/reports/layout.xml",
+		"/home/amul/workspace/community/13.0/addons/account/views/report_invoice.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/static/src/css/font_styles.css",
+		"/home/amul/workspace/community/13.0/addons/web/static/lib/bootstrap/css/bootstrap.css",
+		"/home/amul/workspace/community/13.0/addons/survey/views/assets.xml",
+		"/home/amul/workspace/community/13.0/addons/account/views/account.xml",
+		"/home/amul/workspace/community/13.0/addons/base_automation/views/base_automation_view.xml",
+		"/home/amul/workspace/community/13.0/addons/barcodes/views/barcodes_templates.xml",
+		"/home/amul/workspace/community/13.0/addons/account/report/account_invoice_report.py",
+		"/home/amul/Downloads/medical_invoice_report/static/src/css/custom_report_style.css",
+		"/home/amul/Downloads/medical_invoice_report/views/assets.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/static/src/css/custom_invoice.css",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/__init__.py",
+		"/home/amul/workspace/community/13.0/addons/account/static/src/css/account.css",
+		"/home/amul/workspace/community/13.0/addons/l10n_cl/views/report_invoice.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medcap_custom/views/report_invoice.xml",
+		"/home/amul/workspace/projects/13.0/medical-v13/medical_setup/__manifest__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/controllers/controllers.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/google-services.json",
+		"/home/amul/workspace/community/16.0/Python-3.8.16/Lib/ftplib.py",
+		"/home/amul/workspace/community/16.0/addons/account/static/src/js/legacy_account_payment_field.js",
+		"/home/amul/workspace/community/16.0/addons/website_sale/views/templates.xml",
+		"/home/amul/workspace/community/16.0/addons/account/static/src/js/account_portal_sidebar.js",
+		"/home/amul/workspace/community/16.0/addons/auth_totp/static/tests/totp_flow.js",
+		"/home/amul/workspace/community/16.0/addons/account/static/src/js/account_portal.js",
+		"/home/amul/workspace/enterprise/ent-16.0/website_sale_renting/views/templates.xml",
+		"/home/amul/workspace/community/16.0/addons/account/static/src/components/account_move_form/account_move_form.js",
+		"/home/amul/workspace/projects/16.0/focus-rental/hide_website_price/__manifest__.py",
+		"/home/amul/Downloads/awan_invoice_report/views/awan_invoice_view.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/static/srs/js/shop_category.js",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/templates.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/controllers/shop.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/models/calendar_event.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/models/product.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/controllers/main.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_category_page/__init__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/static/src/js/product_testing.js",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/category_template.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/controllers/main.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/__manifest__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/static/src/css/style.scss",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/__manifest__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/static/src/lib/slick.js",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/static/src/js/focus.js",
+		"/home/amul/workspace/enterprise/ent-16.0/sale_stock_renting/wizard/rental_processing_views.xml",
+		"/home/amul/workspace/community/16.0/addons/website_sale_wishlist/views/website_sale_wishlist_template.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/hide_website_price/__init__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/testing_products_list_template.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/views/website_sale_template.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/appointment_template.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/calendar_event_view.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/controllers/apps.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_base/models/sale.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/rental_schedule/models/sale.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/rental_schedule/controllers/api.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/rental_schedule/controllers/main.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/app_views.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/models/appointment.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_testing_products/views/product_view.xml",
+		"/home/amul/workspace/enterprise/ent-16.0/appointment/views/appointment_templates_registration.xml",
+		"/home/amul/workspace/enterprise/ent-16.0/appointment/views/appointment_type_views.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/views/extra_info_templates.xml",
+		"/home/amul/workspace/enterprise/ent-16.0/appointment/controllers/appointment.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_base/models/event.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/rental_schedule/wizard/pickup_views.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/models/website.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/data/product_snippet_template_data.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/__manifest__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/models/__init__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/models/res_config_settings.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/views/res_config_settings_views.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/models/res_partner.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/models/product_template.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/static/src/xml/website_sale_templates.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/views/product_template_views.xml",
+		"/home/amul/workspace/community/16.0/addons/website_sale/static/src/js/website_sale.js",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/views/website_custom_view.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_base/views/sale_views.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_base/views/calendar_views.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/controllers/__init__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/website_sale_hide_price/i18n/sr.po",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_base/__manifest__.py",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_base/data/data.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/static/src/js/custom_cart.js",
+		"/home/amul/workspace/community/16.0/addons/website_sale/i18n/sr@latin.po",
+		"/home/amul/workspace/community/16.0/addons/website_sale_slides/views/website_slides_templates.xml",
+		"/home/amul/workspace/projects/16.0/focus-rental/focus_theme/views/rental",
+		"/home/amul/workspace/community/16.0/addons/sale/views/sale_portal_templates.xml",
+		"/home/amul/workspace/community/16.0/addons/website/views/website_templates.xml"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "templates.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"/models/reconciliation_widget.py",
+				"13.0/addons/account/models/reconciliation_widget.py"
+			],
+			[
+				"rrors/popups/error_popup",
+				"17.0/addons/point_of_sale/static/src/app/errors/popups/error_popup.js"
+			],
+			[
+				"primary_variables.scss",
+				"16.0/addons/website/static/src/scss/primary_variables.scss"
+			],
+			[
+				"portal/",
+				"16.0/addons/portal/__manifest__.py"
+			],
+			[
+				"import_boot",
+				"16.0/addons/web/static/src/scss/import_bootstrap.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 350.0,
+		"last_filter": "sds",
+		"selected_items":
+		[
+			[
+				"sds",
+				"setDataSource"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
