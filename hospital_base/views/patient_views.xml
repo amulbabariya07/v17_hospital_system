@@ -7,34 +7,39 @@
                 <form string="arch">
                     <sheet>
                         <group>
-                            <field name="name" />
-                            <field name="age" />
-                            <field name="gender" />
-                            <field name="blood_type" />
-                            <field name="contact_number" />
-                            <field name="email" />
-                            <field name="address" />
-                            <field name="emergency_contact" />
+                            <field name="name" widget="CopyClipboardChar" />
+                            <field name="age"/>
+                            <field name="gender" widget="radio" options="{'horizontal': true}" />
+                            <field name="blood_type" widget="radio" options="{'horizontal': true}" />
+                            <field name="contact_number" widget="phone"/>
+                            <field name="email" widget="email"/> 
+                            <field name="address" widget="textarea"/>
+                            <field name="emergency_contact" widget="phone" />
                             <field name="is_emergency_case" />
                         </group>
                     </sheet>
                 </form>
             </field>
         </record>        
+
         <record id="view_hospital_patient_tree" model="ir.ui.view">
             <field name="name">view.hospital.patient.tree</field>
             <field name="model">hospital.patient</field>
             <field name="arch" type="xml">
-                <tree string="arch">
+                <tree string="Hospital">
                     <field name="name" />
+                    <field name="gender" />
+
                 </tree>
             </field>
         </record>
+
         <record id="action_hospital_patient" model="ir.actions.act_window">
             <field name="name">Patient</field>
             <field name="res_model">hospital.patient</field>
             <field name="view_mode">tree,form</field>
         </record>
+
         <menuitem id="menu_hospital_patient_master" name="Hospital" sequence="0"
             action="action_hospital_patient"/>
 </odoo>
