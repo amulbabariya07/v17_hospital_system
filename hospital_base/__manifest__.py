@@ -27,6 +27,7 @@
         'security/ir.model.access.csv',
         'views/patient_views.xml',
         'views/appointmnet_views.xml',
+        'views/male_female_patient_view.xml',
         'views/templates.xml',
     ],
 
