@@ -16,6 +16,7 @@
                             <field name="address" widget="textarea"/>
                             <field name="emergency_contact" widget="phone" />
                             <field name="is_emergency_case" />
+                            <field name="active" invisible="1"/>
                         </group>
                     </sheet>
                     <div class="oe_chatter">
@@ -52,6 +53,8 @@
                     <separator/>
                     <filter string="Kids" name="age" domain="[('age', '&lt;=', 18)]"/>
                     <filter string="Senior Citizon" name="age" domain="[('age', '&gt;=', 60)]"/>
+                    <separator/>
+                    <filter string="Archived" name="archived" domain="[('active', '=', False)]"/>
                     <!-- Group By Filter -->
                     <filter string="Gender" name="gender_group_by" context="{'group_by':'gender'}"/>
                     <separator/>
