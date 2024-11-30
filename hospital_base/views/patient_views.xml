@@ -39,6 +39,20 @@
             </field>
         </record>
 
+        <record id="view_hospital_patient_search" model="ir.ui.view">
+            <field name="name">view.hospital.patient.search</field>
+            <field name="model">hospital.patient</field>
+            <field name="arch" type="xml">
+                <search string="Hospital">
+                    <field name="name" />
+                    <field name="gender" />
+                    <filter string="Male" name="gender_male" domain="[('gender', '=', 'male')]"/>
+                    <separator/>
+                    <filter string="Female" name="gender_female" domain="[('gender', '=', 'female')]"/>
+                </search>
+            </field>
+        </record>
+
         <record id="action_hospital_patient" model="ir.actions.act_window">
             <field name="name">Patient</field>
             <field name="res_model">hospital.patient</field>
