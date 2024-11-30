@@ -15,4 +15,5 @@ class hospital(models.Model):
     address = fields.Html(string="Address", tracking=True)
     emergency_contact = fields.Char("Emergency Contact", tracking=True)
     is_emergency_case = fields.Boolean(string="Is Emergency Case", tracking=True)
+    active = fields.Boolean(string="Active", default=True)
 
