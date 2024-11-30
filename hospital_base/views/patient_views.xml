@@ -52,7 +52,10 @@
                     <separator/>
                     <filter string="Kids" name="age" domain="[('age', '&lt;=', 18)]"/>
                     <filter string="Senior Citizon" name="age" domain="[('age', '&gt;=', 60)]"/>
-
+                    <!-- Group By Filter -->
+                    <filter string="Gender" name="gender_group_by" context="{'group_by':'gender'}"/>
+                    <separator/>
+                    <filter string="Age" name="gender_group_by" context="{'group_by':'age'}"/>
                 </search>
             </field>
         </record>
