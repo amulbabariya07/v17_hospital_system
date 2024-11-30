@@ -35,7 +35,6 @@
                 <tree string="Hospital">
                     <field name="name" />
                     <field name="gender" />
-
                 </tree>
             </field>
         </record>
@@ -47,18 +46,21 @@
                 <search string="Hospital">
                     <field name="name" />
                     <field name="gender" />
-                    <filter string="Male" name="gender_male" domain="[('gender', '=', 'male')]"/>
+                    <!-- <filter string="Male" name="gender_male" domain="[('gender', '=', 'male')]"/> -->
                     <separator/>
-                    <filter string="Female" name="gender_female" domain="[('gender', '=', 'female')]"/>
+                    <!-- <filter string="Female" name="gender_female" domain="[('gender', '=', 'female')]"/> -->
                     <separator/>
                     <filter string="Kids" name="age" domain="[('age', '&lt;=', 18)]"/>
                     <filter string="Senior Citizon" name="age" domain="[('age', '&gt;=', 60)]"/>
                     <separator/>
                     <filter string="Archived" name="archived" domain="[('active', '=', False)]"/>
                     <!-- Group By Filter -->
-                    <filter string="Gender" name="gender_group_by" context="{'group_by':'gender'}"/>
+                    <!-- <filter string="Gender" name="gender_group_by" context="{'group_by':'gender'}"/> -->
                     <separator/>
-                    <filter string="Age" name="gender_group_by" context="{'group_by':'age'}"/>
+                    <!-- <filter string="Age" name="gender_group_by" context="{'group_by':'age'}"/> -->
+                    <searchpanel>
+                        <field name="gender" icon="fa-users" enable_counters="1"/>
+                    </searchpanel>
                 </search>
             </field>
         </record>
