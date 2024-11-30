@@ -49,6 +49,10 @@
                     <filter string="Male" name="gender_male" domain="[('gender', '=', 'male')]"/>
                     <separator/>
                     <filter string="Female" name="gender_female" domain="[('gender', '=', 'female')]"/>
+                    <separator/>
+                    <filter string="Kids" name="age" domain="[('age', '&lt;=', 18)]"/>
+                    <filter string="Senior Citizon" name="age" domain="[('age', '&gt;=', 60)]"/>
+
                 </search>
             </field>
         </record>
