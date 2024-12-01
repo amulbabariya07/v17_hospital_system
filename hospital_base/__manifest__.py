@@ -21,13 +21,14 @@
     'category': 'Healthcare',
     'version': '17.0.0.1',
 
-    'depends': ['base','mail',],
+    'depends': ['base','mail'],
 
     'data': [
         'security/ir.model.access.csv',
         'views/patient_views.xml',
         'views/appointmnet_views.xml',
         'views/male_female_patient_view.xml',
+        'views/hospital_prescription_line_views.xml',
         'views/templates.xml',
     ],
 

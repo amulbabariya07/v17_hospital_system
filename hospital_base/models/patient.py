@@ -17,6 +17,12 @@ class HospitalPatient(models.Model):
     emergency_contact = fields.Char("Emergency Contact", tracking=True)
     is_emergency_case = fields.Boolean(string="Is Emergency Case", tracking=True)
     active = fields.Boolean(string="Active", default=True)
+    hospital_prescription_line = fields.One2many(
+        comodel_name='hospital.prescription.line', 
+        inverse_name='appointment_id',
+        string='Statement lines',
+        required=True,
+    )
 
     @api.depends("date_of_birth")
     def _compute_age(self):
