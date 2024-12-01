@@ -8,6 +8,7 @@
                 <sheet>
                     <group>
                         <field name="patient_id"/>
+                        <field name="gender"/>
                     </group>
                 </sheet>
             </form>
@@ -20,6 +21,7 @@
         <field name="arch" type="xml">
             <tree string="Patient Appointment Tree">
                 <field name="patient_id"/>
+                <field name="gender"/>
             </tree>
         </field>
     </record>
