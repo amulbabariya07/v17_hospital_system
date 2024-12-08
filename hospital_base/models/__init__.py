@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from . import patient
-from . import appointment
-from . import hospital_prescription_line
+from . import hms_doctor
+from . import hms_patient
+from . import hms_appointment
+from . import hms_prescription_line
+from . import hms_doctor_schedule

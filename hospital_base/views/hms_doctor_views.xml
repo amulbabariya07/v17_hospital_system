@@ -1,0 +1,56 @@
+<odoo>
+    <record id="view_doctor_form" model="ir.ui.view">
+        <field name="name">doctor.form</field>
+        <field name="model">hospital.doctor</field>
+        <field name="arch" type="xml">
+            <form string="Doctor">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="specialization"/>
+                        <field name="phone"/>
+                        <field name="email"/>
+                        <field name="active"/>
+                    </group>
+                    <notebook>
+                        <page string="Schedules">
+                            <field name="schedule_ids">
+                                <tree>
+                                    <field name="date"/>
+                                    <field name="start_time"/>
+                                    <field name="end_time"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_doctor_tree" model="ir.ui.view">
+        <field name="name">doctor.tree</field>
+        <field name="model">hospital.doctor</field>
+        <field name="arch" type="xml">
+            <tree string="Doctors">
+                <field name="name"/>
+                <field name="specialization"/>
+                <field name="phone"/>
+                <field name="email"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <menuitem id="menu_hospital_doctor_root" name="Hospital Doctor" sequence="2"/>
+    <menuitem id="menu_hospital_doctors_main" name="Doctors" parent="menu_hospital_doctor_root" sequence="2"/>
+
+    <record id="action_doctors" model="ir.actions.act_window">
+        <field name="name">Doctors</field>
+        <field name="res_model">hospital.doctor</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_hospital_doctor_list" name="Doctors List" parent="menu_hospital_doctors_main" action="action_doctors"/>
+
+</odoo>
