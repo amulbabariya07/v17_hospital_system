@@ -25,6 +25,11 @@ class HospitalPatient(models.Model):
         string='Statement lines',
         required=True,
     )
+    doctor_ids = fields.Many2many(
+        comodel_name="hospital.doctor",  
+        string="Doctor Assign"       
+    )
+
 
     @api.depends("date_of_birth")
     def _compute_age(self):
