@@ -29,7 +29,6 @@
         'views/appointmnet_views.xml',
         'views/male_female_patient_view.xml',
         'views/hospital_prescription_line_views.xml',
-        'views/templates.xml',
     ],
 
     'demo': [

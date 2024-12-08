@@ -4,6 +4,7 @@ class hospitalPrescriptionLine(models.Model):
     _name = 'hospital.prescription.line'
     _description = 'Hospital Prescription Line'
 
+    appointment_id = fields.Many2one('hospital.patient', string="Appointmnet", required=True)
     medicine_id = fields.Char(string="Medicine", required=True)
     dosage = fields.Char(string="Dosage", required=True)  
     frequency = fields.Selection(
@@ -13,4 +14,3 @@ class hospitalPrescriptionLine(models.Model):
     )
     duration = fields.Integer(string="Duration (days)", required=True)
     notes = fields.Text(string="Notes")
-    appointment_id = fields.Many2one('hospital.patient', string="Appointmnet", required=True)
