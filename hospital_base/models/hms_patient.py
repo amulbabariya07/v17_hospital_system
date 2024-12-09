@@ -29,6 +29,7 @@ class HospitalPatient(models.Model):
         comodel_name="hospital.doctor",  
         string="Doctor Assign"       
     )
+    patient_code = fields.Char(string="Patient Code", readonly=True, copy=False)
 
 
     @api.depends("date_of_birth")
@@ -56,3 +57,15 @@ class HospitalPatient(models.Model):
                 record.age_duration = age_duration
             else:
                 record.age_duration = "N/A"
+
+    @api.model
+    def create(self, vals):
+        date_str = datetime.now().strftime('%Y%m%d')
+        sequence = self.env['ir.sequence'].next_by_code('hospital.patient.sequence')
+        if sequence:
+            patient_code = f"PAT-{date_str}{sequence}"
+        else:
+            patient_code = f"PAT-{date_str}0001"
+        
+        vals['patient_code'] = patient_code
+        return super(HospitalPatient, self).create(vals)    

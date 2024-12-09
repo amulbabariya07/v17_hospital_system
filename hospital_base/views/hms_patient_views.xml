@@ -7,6 +7,7 @@
             <form string="Hospital Patient">
                 <sheet>
                     <field name="image" widget="image" class="oe_avatar" options="{'size': [150, 150]}" nolabel="1"/>
+                    <field name="patient_code"/>
                     <group>
                         <group>
                             <field name="name" widget="CopyClipboardChar"/>
